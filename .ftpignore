@@ -1,0 +1,21 @@
+/bower_components/*
+dest/*
+build/*
+node_modules/*
+temp/*
+.bowerrc
+*.log
+
+gulpfile.js
+src/*
+.git/*
+.idea/*
+.ftpignore
+
+# thumbs
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+[Tt]humbs.db

@@ -1,0 +1,35 @@
+.kinorrent-rating {
+    color: black;
+}
+
+.kinorrent-rating::before {
+    content: "[";
+}
+
+.kinorrent-rating.kinorrent-kinopoisk::before {
+    content: "[K: ";
+}
+
+.kinorrent-rating.kinorrent-imdb::before {
+    content: "[I: ";
+}
+
+.kinorrent-rating::after {
+    content: "] ";
+}
+
+.kinorrent-good {
+    color: red;
+}
+
+.kinorrent-bad {
+    color: grey;
+}
+
+tr.kinorrent-tr-bad {
+    background-color: white;
+}
+
+tr.kinorrent-tr-bad td {
+    opacity: 0.3;
+}
